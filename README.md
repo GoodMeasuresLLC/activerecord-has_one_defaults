@@ -42,7 +42,7 @@ built.
   User.new.neck
   # #<Neck:0x007fb2f4c68fc8> {}
 
-  User.address
+  User.new.address
   # nil
 
   User.new.profile

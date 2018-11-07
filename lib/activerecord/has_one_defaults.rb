@@ -21,7 +21,7 @@ module ActiveRecord
       #   Specifies that if the association is access, but has not yet been
       #   initialized.  Use with a boolean or a hash.  If a hash is provided, those
       #   will be the defaults for a newly built object
-      def has_one(name, scope = nil, options = {})
+      def has_one(name, scope = nil, **options)
         default_option = scope.is_a?(Hash) ? scope.delete(:default) : options.delete(:default)
         klass = self
         original_has_one(name, scope, options).tap do

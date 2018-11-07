@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/GoodMeasuresLLC/activerecord-has_one_defaults.svg?branch=master)](https://travis-ci.org/GoodMeasuresLLC/activerecord-has_one_defaults)
+
 # Activerecord::HasOneDefaults
 
 Allows ActiveRecord to default has_one relationships.
